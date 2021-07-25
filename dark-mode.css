@@ -6,7 +6,10 @@
 
 [data-theme="dark"] {
   background-color: #111 !important;
-  color: #eee;
+  color: #000;
+}
+[data-theme="dark"] .shadow{
+ box-shadow : 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
 [data-theme="dark"] .bg-black {
@@ -23,4 +26,7 @@
 
 [data-theme="dark"] .bg-white {
   background-color: #000 !important;
+}
+[data-theme="dark"] .bg-dark {
+ box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
