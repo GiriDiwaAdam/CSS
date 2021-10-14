@@ -1,9 +1,13 @@
+@font-face{font-family:"Product Sans Regular";src:url(https://ghcdn.rawgit.org/GiriDiwa/fonts/main/Product%20Sans%20Regular.ttf)}
+a{text-decoration:none}
+.mt-10{margin-top:210px}
+.pb-10{padding-bottom:10px}
 :root{
     --bg-dark:#212529;
     --text:#fff;
 }
 body{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Product Sans Regular',sans-serif;
     color:#000;
 }
 .header-class{
