@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+/* General */
+:root
+{
+    --font:'Poppins',sans-serif;
+    --ButtonAccentPrimary:#283593;
+    --ButtonAccentSecondary:#607d8b;
+    --colorTextAccentPrimary:#283593;
+    --colorTextSecondary:#455a64;
+}
+body
+{
+    background-color: #fff;
+}
+a
+{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Zen Antique', serif;
+}
+.text-style{
+    padding-left: 250px;
+}
+ul {width:100%;padding-left:20px;padding-top:0px }
+ul li {display:inline;font-size:20px;font-family:'Poppins',sans-serif;}
+/* Header */
+.blog-header
+{
+    line-height: 1;
+    border-bottom:1px solid var(--colorTextSecondary);
+}
+.blog-header-logo
+{
+    font-family: var(--font);
+    font-size: 2.25rem;
+}
+.blog-header-logo:hover
+{
+    text-decoration: none;
+}
+.display-4
+{
+    font-size: 2.5rem;
+
+}
+/* Navbar  */
+.bg-transparent
+{
+    background-color: transparent;
+}
+  
+/* Footer */
+.blog-footer
+{
+    padding: 2.5rem 0;
+    color:var(--colorTextSecondary);
+    text-align: center;
+    background-color:#f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child
+{
+    margin-bottom: 0;
+}
+/* Modal */
+.modal-header
+{
+    border-bottom:none!important;
+}
+/* Search */
+.form-control{
+    background-color:#ced4da;
+    color:#fff;
+    border:none!important;
+}
+/* Time */
+.jam{
+    color:#fff;
+    font-family: 'Poppins',sans-serif;
+    font-size:8px;
+    display: inline-flex;
+    padding-top:0px;
+}
+#Date {font-family:'Poppins',sans-serif;font-size:16px;text-align:center;text-shadow:0 0 5px #00c6ff; }
+    
+#point {position:relative;padding-left:10px;padding-right:10px; }       
+/* Responsive */
+@media(min-width:768px)
+{
+    .display-4
+    {
+        font-size: 3rem;
+    }
+}
